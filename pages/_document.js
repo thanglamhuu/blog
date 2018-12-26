@@ -133,6 +133,7 @@ export default class MyDocument extends Document {
             content="/favicon/ms-icon-144x144.png"
           />
           <meta name="theme-color" content="#ffffff" />
+          <link rel="stylesheet" href={`/_next/static/style.css`} />
           <style dangerouslySetInnerHTML={{ __html: resetStyles }} />
           <link
             href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic"
