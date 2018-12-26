@@ -11,7 +11,7 @@ import LanguageSelector from "~/components/LanguageSelector";
 import { getIndexLink } from "~/utils/links";
 import LazyPostsFetcher from "~/pages/_hocs/LazyPostsFetcher";
 import LoadMoreButton from "~/components/LoadMoreButton";
-
+import "./index.css";
 class Index extends React.Component {
   render() {
     const { lang, posts, hasMore, onLoadMore } = this.props;
