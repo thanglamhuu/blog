@@ -1,5 +1,5 @@
 Get code and run
 ```bash
 yarn
-yarn run seed
+yarn run dev
 ```

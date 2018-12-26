@@ -25,6 +25,7 @@ class Index extends React.Component {
         />
         <Grid style={{ overflow: "hidden" }}>
           <Row>
+            <h1>Test css</h1>
             <Col xs={12} sm={12} md={9}>
               <PostsFeed posts={posts} />
             </Col>
